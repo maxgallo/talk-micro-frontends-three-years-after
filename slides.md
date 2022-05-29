@@ -71,13 +71,13 @@ Takeaways
 [.column]
 <br><br><br>
 # 🂡 __Three Years Ago__
-# 🂢 __Challenges__
-# 🂣 __Takeaways__
+# 🂢 __Three Challenges__
+# 🂣 __Three Takeaways__
 
 ---
 # [fit] Three Years Ago 
-# __Challenges__
-# __Takeaways__
+# __Three Challenges__
+# __Three Takeaways__
 <br />
 <br />
 <br />
@@ -102,7 +102,7 @@ Takeaways
 # [fit] __2018__ Frontend Architecture
 
 
-![original 48%](./images/monolith_vs_vertical_mfes.png)
+![original 50%](./images/monolith_vs_vertical_mfes.png)
 
 
 ^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
@@ -112,7 +112,7 @@ Takeaways
 
 ---
 
-# [fit] Vertical vs Horizontal
+# [fit] __Micro-frontends:__ Vertical vs Horizontal
 
 
 ![original 48%](./images/vertical_horizontal.png)
@@ -139,7 +139,7 @@ Takeaways
 ---
 
 # __Three Years Ago__ 
-# [fit] Challenges
+# [fit] Three Challenges
 # __Takeaways__
 <br />
 <br />
@@ -209,6 +209,10 @@ __Challenge #1: Boundaries Definition__
 
 ![original 50%](./images/horizontal_microfrontends_dazn.png)
 
+^ Wrapper Around SystemJS
+^ Breaking Changes releases (major in semver) are blocked by host
+^ Other releases (Minor & patch) are owned by team
+
 ---
 
 __Challenge #2: Beyond Team Autonomy__
@@ -264,9 +268,31 @@ __Challenge #3: To Share, or not to Share__
 
 ---
 
+# __Three Years Ago__ 
+# __Three Challenges__
+# [fit] Three Takeaways
+<br />
+<br />
+<br />
+### @**_maxgallo**
+---
 
-# [fit] Takeaways
+# [fit] Three Takeaways
 
-  - Re evaluate the decisions (And keep Decision Records)
+  - Re evaluate your decisions, and keep Decision Records
   - Think about sharing but don't use "number of shared components" as metric
   - It's always about people
+
+---
+
+
+#[fit] Thank You
+
+
+# [fit] **github.com/maxgallo/talk-micro-frontends-three-years-after**
+
+<br />
+<br />
+<br />
+
+### @**_maxgallo**
