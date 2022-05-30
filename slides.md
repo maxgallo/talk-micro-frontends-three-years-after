@@ -1,4 +1,4 @@
-# [fit] Micro-frontends,
+# [fit] Micro-frontends
 ### [fit] **three years after**
 
 <br />
@@ -9,7 +9,7 @@
 
 ---
 
-## __In 2019 I was on this stage with__ Luca Mezzalira __to introduce DAZN approach to__ Micro-frontends.
+## __In 2019 I was on this stage with__ Luca Mezzalira __to introduce DAZN approach to__ Micro-frontends
 
 ![right fill filtered](./images/max_luca.JPG)
 
@@ -97,7 +97,7 @@ Takeaways
 
 ---
 
-# __Once Upon a Time, there was a Live Sport Streaming Company, called__ DAZN
+# __Once Upon a Time, there was a Live Sport Streaming Company called__ DAZN
 
 ![right 45%](./images/football.png)
 
@@ -113,7 +113,7 @@ Takeaways
 
 ---
 
-# __We needed a better solution to sustain our growth and future plans, so we introduced__ Micro-frontends.
+# __To sustain our growth plans so we introduced__ Micro-frontends
 
 
 ![right 50%](./images/monolith_vs_vertical_mfes.png)
@@ -122,7 +122,7 @@ Takeaways
 
 [.column]
 
-## __To highlight the pillars of our solution, we created the__ Micro-frontends Manifesto.
+## __To highlight the pillars of our solution we created our__ Micro-frontends Manifesto
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### @**_maxgallo**
 
@@ -170,7 +170,7 @@ Takeaways
 ![original 55%](./images/too_many_teams.png)
 
 [.column]
-# __Some vertical Micro-frontends were__ too big __for a single team.__
+# __Some vertical Micro-frontends were__ too big __for a single team__
 
 ^ Release Trains
 ^ Cross-teams coordination needed
@@ -183,7 +183,7 @@ Takeaways
 <br>
 
 ---
-# __Our business subdomains are not immutable, so we re-defined their__ boundaries.
+# __Our business subdomains are not immutable so we re-defined their__ boundaries
 
 ![right 65%](./images/vertical_split.png)
 
@@ -193,7 +193,7 @@ Takeaways
 
 ---
 
-# __A Subdomain did contain a complex subsystem[^1] that__ was not considered a Micro-frontend.
+# __A Subdomain did contain a complex subsystem[^1] that__ was not considered a Micro-frontend
 ![right 65%](./images/single_view.png)
 
 [^1]: From "Team Topologies"
@@ -202,7 +202,7 @@ Takeaways
 
 ---
 
-# [fit] __Micro-frontends:__ Vertical & Horizontal[^2]
+# [fit] __Micro-frontends__ Vertical & Horizontal[^2] split
 
 
 ![original 48%](./images/vertical_horizontal.png)
@@ -217,7 +217,7 @@ Takeaways
 [.column]
 <br>
 
-## ☞ __Multiple Teams owning parts of the same page__
+## ☞ __Multiple Teams owning parts of the same view__
 ## ☞ __Coordination needed__
 ## ☞ __Independent Releases__
 
@@ -266,7 +266,7 @@ Takeaways
 <br>
 
 ---
-# __Teams were very autonomous, with the risk of creating__ silos.
+# __Very autonomous Teams are at risk to create__ silos
 
 ![right 45%](./images/team_silos.png)
 
@@ -341,37 +341,43 @@ Takeaways
 
 ---
 
-# __We've got small__ visual inconsistencies __, but not a single visual component has been shared across all the Micro-frontends,__ yet.
+# __Not a single visual component has been shared across all the Micro-frontends,__ yet
 
 ![right 45%](./images/share.png)
 
-^ it's been not easy how "not share" was helping deliver faster
+^ Not an easy journey
+^ why "visual"
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### @**_maxgallo**
 
 ---
 
-# __In DAZN, we're starting to share things because our priorities are changing.__ Share as solution, not as a goal.
-
-![right 45%](./images/share.png)
+[.column]
+# __In DAZN, we started to share to reflect__ company priorities
 
 ^ New Phase soon (company is more mature)
 ^ something currently shared: payments (business critical)
 
-<br><br><br><br><br><br><br><br><br>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### @**_maxgallo**
+
+[.column]
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+## __What are we sharing?__
+__☞__ Payments (critical component)
+__☞__ Analytics Events (risks in duplication)
+__☞__ Experiments (risk in duplication)
 
 ---
 
 # [fit] Takeaways
 
-__☞__ Your business subdomain ar note immutable
+__☞__ Your business subdomain ar _not immutable_
 __☞__ Iterate and keep Decision Records
-__☞__ Think about sharing, but accept duplication
-__☞__ It's always about people
+__☞__ Share as a _solution_ not as a _goal_
+__☞__ It's always about _people_
 
 <br><br><br><br><br>
 
