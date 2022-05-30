@@ -9,6 +9,18 @@
 
 ---
 
+## __In 2019 I was on this stage with__ Luca Mezzalira __to introduce DAZN approach to__ Micro-frontends.
+
+![right fill filtered](./images/max_luca.JPG)
+
+^ March 2019
+^ Incredible response / feedback / questions
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+https://bit.ly/talk-max-luca
+
+---
+
 # [fit] Hi 👋 I'm Max
 
 ### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
@@ -64,66 +76,63 @@ Takeaways
 
 -->
 
+# Agenda
+
+## ☞ __Once Upon a Time__
+## ☞ __Domain Boundaries Evolution__
+## ☞ __Beyond Team Autonomy__
+## ☞ __Sharing Code__
+
+---
+
+
+![original fit](./images/book_1.png)
+
 [.column]
-<br><br><br><br><br><br>
-# [fit] Agenda
+# [fit] __Once Upon a Time__
+### Part 1 of 4
+
+[.column]
+<br>
+
+---
+
+# __Once Upon a Time, there was a Live Sport Streaming Company, called__ DAZN
+
+![right 45%](./images/football.png)
+
+---
+
+![original 50%](./images/growth.png)
+
+[.column]
+# __DAZN Engineering department was growing__ exponentially
+
+[.column]
+<br>
+
+---
+
+# __We needed a better solution to sustain our growth and future plans, so we introduced__ Micro-frontends.
+
+
+![right 50%](./images/monolith_vs_vertical_mfes.png)
+
+---
+
+[.column]
+
+## __To highlight the pillars of our solution, we created the__ Micro-frontends Manifesto.
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+### @**_maxgallo**
 
 [.column]
 <br><br><br>
-# 🂡 __Three Years Ago__
-# 🂢 __Three Challenges__
-# 🂣 __Three Takeaways__
+### ☞ __Independent implementation, avoid sharing logic__
+### ☞ __Modelled around a Business Domain__
+### ☞ __Owned by a single team__
 
----
-# [fit] Three Years Ago 
-# __Three Challenges__
-# __Three Takeaways__
-<br />
-<br />
-<br />
-### @**_maxgallo**
-
----
-
-[.column]
-
-<br><br>
-# [fit] DAZN
-# [fit] Three Years Ago
-
-[.column]
-<br><br><br><br><br>
-## ☞ __Live Sport Streaming__
-## ☞ __Rapid Growth__
-## ☞ __~6 Frontend teams__
-
----
-
-# [fit] __2018__ Frontend Architecture
-
-
-![original 50%](./images/monolith_vs_vertical_mfes.png)
-
-
-^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
-^ Bootstrap: clientside orchestrator
-^ Not a single line of code shared
-^ Autonomous teams
-
----
-
-# [fit] __Micro-frontends:__ Vertical vs Horizontal
-
-
-![original 48%](./images/vertical_horizontal.png)
-
-
-^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
-^ Bootstrap: clientside orchestrator
-^ Not a single line of code shared
-^ Autonomous teams
-
----
+<!--
 
 # [fit] __2018__ Runtime Frontend Architecture
 
@@ -135,61 +144,75 @@ Takeaways
 ^ Bootstrap: clientside orchestrator
 ^ Not a single line of code shared
 ^ Autonomous teams
+-->
+
+---
+...and they lived happily ever after
 
 ---
 
-# __Three Years Ago__ 
-# [fit] Three Challenges
-# __Takeaways__
-<br />
-<br />
-<br />
-### @**_maxgallo**
+...and they lived happily ever after
+#[fit] __Nope!__
 
 ---
 
-__Challenge #1: Boundaries Definition__
-<br><br><br><br>
+![original fit](./images/book_2.png)
+
+[.column]
+# [fit] __Domain Boundaries Evolution__
+### Part 2 of 4
+
+[.column]
+<br>
+
+---
+
+![original 55%](./images/too_many_teams.png)
+
+[.column]
 # __Some vertical Micro-frontends were__ too big __for a single team.__
-
-![right 58%](./images/too_many_teams.png)
 
 ^ Release Trains
 ^ Cross-teams coordination needed
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-@**_maxgallo**
+### @**_maxgallo**
+
+[.column]
+<br>
 
 ---
+# __Our business subdomains are not immutable, so we re-defined their__ boundaries.
 
-# __Solution #1__ Re-define boundaries
+![right 65%](./images/vertical_split.png)
 
-![original 55%](./images/vertical_split.png)
-
+^ We merged microfrontends
 ^ Runtime Approach doesn't change, there's always one team in every view
+^ there are limits for this
 
 ---
 
-# __Vertical Micro-Frontend,__ Ownership is at least a page.
+# __A Subdomain did contain a complex subsystem[^1] that__ was not considered a Micro-frontend.
+![right 65%](./images/single_view.png)
 
+[^1]: From "Team Topologies"
+
+^Ownership is at least a page.
 
 ---
 
-# [fit] __Solution #2__ Horizontal Micro-Frontends
-
-![original 55%](./images/solution2.png)
+# [fit] __Micro-frontends:__ Vertical & Horizontal[^2]
 
 
-^ systemJS wrapper
-^ Comparison: Module Federation or Single-SPA ?
+![original 48%](./images/vertical_horizontal.png)
+
+[^2]: Module Federation, Single SPA
 
 ---
 
 [.column]
-<br><br><br><br><br>
-# [fit] Deep Dive
-## [fit] Horizontal Micro-frontends
+# __Deep Dive into__ Horizontal Micro-frontends
 
 [.column]
 <br>
@@ -198,101 +221,171 @@ __Challenge #1: Boundaries Definition__
 ## ☞ __Coordination needed__
 ## ☞ __Independent Releases__
 
-
-^ Example: complex subsystem (Team topologies): playback
-
 ---
 
-# Deep Dive
-## __Horizontal Micro-frontends__
-## __in__ DAZN
-
 ![original 50%](./images/horizontal_microfrontends_dazn.png)
+
+[.column]
+# __Deep Dive into Horizontal Micro-frontends in__ DAZN
+<br><br><br><br>
+☞ SystemJS
+☞ Relationship with host
+☞ Deployment strategy
+
+
+[.column]
+<br>
+
 
 ^ Wrapper Around SystemJS
 ^ Breaking Changes releases (major in semver) are blocked by host
 ^ Other releases (Minor & patch) are owned by team
 
+
+
+<!--
+# [fit] __Solution #2__ Horizontal Micro-Frontends
+
+![original 55%](./images/solution2.png)
+
+
+^ systemJS wrapper
+^ Comparison: Module Federation or Single-SPA ?
+-->
+
+
 ---
 
-__Challenge #2: Beyond Team Autonomy__
-<br><br><br><br>
-# __Teams were autonomous, but creating__ silos.
+![original fit](./images/book_3.png)
+
+[.column]
+# [fit] __Beyond Team Autonomy__
+### Part 3 of 4
+
+[.column]
+<br>
+
+---
+# __Teams were very autonomous, with the risk of creating__ silos.
 
 ![right 45%](./images/team_silos.png)
 
 ^ How to spot the signs
 ^ Principal Engineers or cross team tech people
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-@**_maxgallo**
+### @**_maxgallo**
 
 ---
 
 [.column]
-
 # Share Knowledge
 <br><br><br><br><br>
 ### __☞__ Frontend Guilds
+### __☞__ Principals & Architects
+
+[.column]
+<br>
 
 
 [.column]
+<br>
 
+---
+
+[.column]
+# Share Knowledge
+<br><br><br><br><br>
+### __☞__ Frontend Guilds
+### __☞__ Principals & Architects
+
+[.column]
 # __Decide Together__
 <br><br><br><br><br>
 ### __☞ Request For Comments (aka RFC)__
 
 
 [.column]
-
-# Discover <br>More
-<br><br><br><br><br>
-### ☞ Backstage (Spotify)
+<br>
 
 ---
 
-__Challenge #3: To Share, or not to Share__
+[.column]
+# Share Knowledge
+<br><br><br><br><br>
+### __☞__ Frontend Guilds
+### __☞__ Principals & Architects
+
+[.column]
+# __Decide Together__
+<br><br><br><br><br>
+### __☞ Request For Comments (aka RFC)__
+
+
+[.column]
+# Discover <br>More
+<br><br><br><br><br>
+### __☞__ Backstage (Spotify)
+
+---
+
+![original fit](./images/book_4.png)
+
+[.column]
+# [fit] __Sharing Code__
+### Part 4 of 4
+
+[.column]
 <br>
-# __There are__ visual inconsistencies __, but not a single visual component has been shared across all the Micro-frontends,__ yet.
+
+---
+
+# __We've got small__ visual inconsistencies __, but not a single visual component has been shared across all the Micro-frontends,__ yet.
 
 ![right 45%](./images/share.png)
 
 ^ it's been not easy how "not share" was helping deliver faster
+
+<br><br><br><br><br><br><br><br>
+
+### @**_maxgallo**
+
+---
+
+# __In DAZN, we're starting to share things because our priorities are changing.__ Share as solution, not as a goal.
+
+![right 45%](./images/share.png)
+
 ^ New Phase soon (company is more mature)
 ^ something currently shared: payments (business critical)
 
-<br><br>
+<br><br><br><br><br><br><br><br><br>
 
-@**_maxgallo**
+### @**_maxgallo**
 
 ---
 
-# __Three Years Ago__ 
-# __Three Challenges__
-# [fit] Three Takeaways
-<br />
-<br />
-<br />
+# [fit] Takeaways
+
+__☞__ Your business subdomain ar note immutable
+__☞__ Iterate and keep Decision Records
+__☞__ Think about sharing, but accept duplication
+__☞__ It's always about people
+
+<br><br><br><br><br>
+
 ### @**_maxgallo**
 ---
 
-# [fit] Three Takeaways
-
-  - Re evaluate your decisions, and keep Decision Records
-  - Think about sharing but don't use "number of shared components" as metric
-  - It's always about people
-
----
-
+<br>
 
 #[fit] Thank You
 
 
 # [fit] **github.com/maxgallo/talk-micro-frontends-three-years-after**
+<br>
 
-<br />
-<br />
-<br />
 
 ### @**_maxgallo**
+

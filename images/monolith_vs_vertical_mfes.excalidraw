@@ -426,32 +426,6 @@
           481.5549660224467
         ]
       ]
-    },
-    {
-      "type": "ellipse",
-      "version": 137,
-      "versionNonce": 984666806,
-      "isDeleted": false,
-      "id": "oEho8AYIPN6H9sMNwRvZ8",
-      "fillStyle": "cross-hatch",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 0,
-      "angle": 0,
-      "x": 359.05191396738036,
-      "y": -699.9900346235804,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
-      "width": 95.7147216796875,
-      "height": 95.7147216796875,
-      "seed": 1248566762,
-      "groupIds": [],
-      "strokeSharpness": "sharp",
-      "boundElements": [],
-      "updated": 1653864160645,
-      "link": null,
-      "locked": false
     }
   ],
   "appState": {
