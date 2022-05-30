@@ -113,24 +113,23 @@ Takeaways
 
 ---
 
-# __To sustain our growth plans so we introduced__ Micro-frontends
+# __To sustain our teams growth plans so we introduced__ Micro-frontends
 
 
 ![right 50%](./images/monolith_vs_vertical_mfes.png)
 
 ---
 
-[.column]
+# [fit] __DAZN Micro-frontends__ Manifesto
 
-## __To highlight the pillars of our solution we created our__ Micro-frontends Manifesto
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+### ☞ __Modelled around a Business Subdomain__
+### ☞ __Independent implementation__
+### ☞ __Owned by a single team__
+
+<br><br><br><br><br><br><br><br><br><br>
 ### @**_maxgallo**
 
-[.column]
-<br><br><br>
-### ☞ __Independent implementation, avoid sharing logic__
-### ☞ __Modelled around a Business Domain__
-### ☞ __Owned by a single team__
+![original 50%](./images/manifesto.png)
 
 <!--
 
@@ -167,6 +166,14 @@ Takeaways
 
 ---
 
+
+# __It's not easy to define__ Domain Boundaries
+
+![right 80%](./images/subdomain_evolution.gif)
+
+---
+
+
 ![original 55%](./images/too_many_teams.png)
 
 [.column]
@@ -174,6 +181,7 @@ Takeaways
 
 ^ Release Trains
 ^ Cross-teams coordination needed
+^ Evolution of the boundaries
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -199,6 +207,7 @@ Takeaways
 [^1]: From "Team Topologies"
 
 ^Ownership is at least a page.
+^If we step back a second, going high level
 
 ---
 
@@ -210,7 +219,7 @@ Takeaways
 [^2]: Module Federation, Single SPA
 
 ---
-
+<!--
 [.column]
 # __Deep Dive into__ Horizontal Micro-frontends
 
@@ -222,6 +231,7 @@ Takeaways
 ## ☞ __Independent Releases__
 
 ---
+-->
 
 ![original 50%](./images/horizontal_microfrontends_dazn.png)
 
@@ -230,7 +240,7 @@ Takeaways
 <br><br><br><br>
 ☞ SystemJS
 ☞ Relationship with host
-☞ Deployment strategy
+☞ Autonomy in non-breaking <br>changes
 
 
 [.column]
@@ -339,6 +349,8 @@ Takeaways
 [.column]
 <br>
 
+^ Duplicating by design
+
 ---
 
 # __Not a single visual component has been shared across all the Micro-frontends,__ yet
@@ -355,27 +367,39 @@ Takeaways
 ---
 
 [.column]
-# __In DAZN, we started to share to reflect__ company priorities
+# __In DAZN, we're sharing some components to reflect__ company priorities
 
 ^ New Phase soon (company is more mature)
 ^ something currently shared: payments (business critical)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### @**_maxgallo**
 
 [.column]
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
-## __What are we sharing?__
-__☞__ Payments (critical component)
-__☞__ Analytics Events (risks in duplication)
-__☞__ Experiments (risk in duplication)
+
+---
+# __What are we sharing and__ why
+
+<br> 
+
+[.column]
+## ☞ __Payments__
+Critical component
+
+[.column]
+## ☞ __Analytics__
+Risks in duplication
+
+[.column]
+## ☞ __Experiments__
+Hard to provide autonomy
 
 ---
 
 # [fit] Takeaways
 
-__☞__ Your business subdomain ar _not immutable_
-__☞__ Iterate and keep Decision Records
+__☞__ Your business subdomains are _not immutable_
 __☞__ Share as a _solution_ not as a _goal_
 __☞__ It's always about _people_
 
