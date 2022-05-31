@@ -125,8 +125,9 @@ Takeaways
 ### ☞ __Modelled around a Business Subdomain__
 ### ☞ __Independent implementation__
 ### ☞ __Owned by a single team__
+### ☞ __Entire view__
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 ### @**_maxgallo**
 
 ![original 50%](./images/manifesto.png)
@@ -278,7 +279,7 @@ Takeaways
 ---
 # __Very autonomous Teams are at risk to create__ silos
 
-![right 45%](./images/team_silos.png)
+![right 48%](./images/team_silos.png)
 
 ^ How to spot the signs
 ^ Principal Engineers or cross team tech people
