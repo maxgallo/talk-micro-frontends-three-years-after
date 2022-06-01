@@ -291,53 +291,34 @@ Takeaways
 ---
 
 [.column]
-# Share Knowledge
+# __Share Knowledge__ across Teams
+
+[.column]
 <br><br><br><br><br>
-### __☞__ Frontend Guilds
-### __☞__ Principals & Architects
-
-[.column]
-<br>
-
-
-[.column]
-<br>
+## ☞ __Frontend Guilds__
+## ☞ __Principals & Architects__
 
 ---
 
 [.column]
-# Share Knowledge
-<br><br><br><br><br>
-### __☞__ Frontend Guilds
-### __☞__ Principals & Architects
+# __Favor local decisions__ but have a plan for global decisions
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### @**_maxgallo**
 
 [.column]
-# __Decide Together__
 <br><br><br><br><br>
-### __☞ Request For Comments (aka RFC)__
-
-
-[.column]
-<br>
+## ☞ __Request For Comments (aka RFC)__
+## ☞ __Decision Records (aka ADR)__
 
 ---
 
-[.column]
-# Share Knowledge
-<br><br><br><br><br>
-### __☞__ Frontend Guilds
-### __☞__ Principals & Architects
+# __Enable Discovery__ beyond Teams
 
-[.column]
-# __Decide Together__
 <br><br><br><br><br>
-### __☞ Request For Comments (aka RFC)__
+### ☞ __Backstage (Spotify)__
 
-
-[.column]
-# Discover <br>More
-<br><br><br><br><br>
-### __☞__ Backstage (Spotify)
+![right 40%](./images/backstage.png)
 
 ---
 
@@ -382,7 +363,40 @@ Takeaways
 ---
 # __What are we sharing and__ why
 
-<br> 
+<br>
+
+[.column]
+## ☞ __Payments__
+Critical component
+
+[.column]
+<br>
+
+[.column]
+<br>
+
+---
+
+# __What are we sharing and__ why
+
+<br>
+
+[.column]
+## ☞ __Payments__
+Critical component
+
+[.column]
+## ☞ __Analytics__
+Risks in duplication
+
+[.column]
+<br>
+
+---
+
+# __What are we sharing and__ why
+
+<br>
 
 [.column]
 ## ☞ __Payments__
